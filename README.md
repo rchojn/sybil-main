@@ -19,10 +19,11 @@ Here’s where all the magic happens.
 - **date_tolerance = 4**: Tolerance for differences in days in protocol usage
 - **date_range_tolerance = timedelta(days=4)**: Tolerance for differences in activation date
 - **volume_tolerance = 0.30**: # Percentage tolerance for volume differences in a certain cluster in a certain protocol
+- **final_clusters = [cluster for cluster in all_clusters if len(cluster) > 20]** - number of addreses in cluster, 20 in this case 
 
 How flexible these settings are affects the likelihood of accidentally including people who shouldn't be grouped together.
 
-After initially sorting the data into clusters, additional processes are implemented to ensure the results are as accurate as possible and to clean up data. 
+After initially sorting the data into clusters, additional functions are implemented to ensure the results are as accurate as possible and to clean up data. 
 
 For those who want to run `clustering.py` without the data gathering step, a `sample_data.csv` file is included, containing 10,000 addresses.
 
