@@ -1,6 +1,6 @@
 Code base related to - [LayerZero Labs Sybil Report Issue #58](https://github.com/LayerZero-Labs/sybil-report/issues/58)
 
-These scripts are not rocket science. They might not look pretty or be well-organized, but they get the job done. The methodology here reduces the risk of mistakenly including real people in the data close to 0.
+These scripts are not rocket science. They might not look pretty or be well-organized, but they get the job done.
 
 ## data_mining.py
 
